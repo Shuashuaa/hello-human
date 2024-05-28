@@ -1,59 +1,56 @@
 <template>
 	<div class="App">
-		<h1 style="font-size: 77px;">hello there, Human!.</h1>
-		<button @click="changeName('zelda')">ChangeNAme</button>
+		<div class="header">  
+			<h1 style="font-size: 20px;">hello there, Human!</h1>
+    	</div>
+		
+		
 	</div>
-	
-	<router-view/>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, reactive, ref, toRefs } from 'vue';
+import HomeComp from './components/HomeComp.vue';
 
 export default defineComponent({
 	name: 'App',
-	components: {},
+	components: { HomeComp },
 
 	data(){
 		return {
-			name: 'Link',
-			age: 18 as number | string
+			name: 'Josh',
+			age: 18 as string | number
 		}
 	},
 	methods: {
-		changeName(name: string) {
-			this.name = name; 
-			alert(this.name)
+		changeName(name: string){
+			this.name = name;
+			return name;
 		},
-		changeAge(age: number){
-			this.age = age
+		changeAge(age: string | number){
+			this.age = age;
+			return age;
 		}
+	},
+});
+</script>
+
+<style>
+	.app{
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		margin: 0;  /* Remove default margin */
+  		padding: 0;  /* Remove default padding */
 	}
-});
-</script>
-
-<style>
-
+	.header{
+		height: 5vh;
+		background-color: beige; 
+		padding: 1rem;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		display: flex;
+		align-items: center; 
+	}
 </style>
-
-
-<!-- <template>
-	<div class="App">
-		<h1 style="font-size: 77px;">hello there, Human!.</h1>
-	</div>
-	
-	<router-view/>
-</template>
-
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-	name: 'App',
-	components: {}
-});
-</script>
-
-<style>
-
-</style> -->
