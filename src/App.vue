@@ -3,8 +3,8 @@
 		<div class="header">  
 			<h1 style="font-size: 20px;">hello there, Human!</h1>
     	</div>
-		
-		
+		{{ name }} is {{ age }} years old
+		<button @click="changeName('Juswa')">Change</button>
 	</div>
 </template>
 
