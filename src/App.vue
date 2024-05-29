@@ -5,7 +5,7 @@
     	</div>
 		
 		<!-- <button @click="changeName('juswa'), changeAge('25')"></button> -->
-		<!-- {{ name }} - {{ age }} -->
+		{{ name }} - {{ age }}
 	</div>
 </template>
 
