@@ -4,8 +4,8 @@
 			<h1 style="font-size: 20px;">hello there, Human!</h1>
     	</div>
 		
-		<!-- <button @click="changeName('juswa'), changeAge('25')"></button> -->
-		<!-- {{ name }} - {{ age }} -->
+		<button @click="changeName('juswa'), changeAge('25')"></button>
+		{{ name }} - {{ age }}
 	</div>
 </template>
 
