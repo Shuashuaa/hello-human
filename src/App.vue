@@ -4,9 +4,10 @@
 			<h1 style="font-size: 20px;">hello there, Human!</h1>
     	</div>
 	
-		<div v-for="job in jobs" :key="job.id">
+		<!-- <div v-for="job in jobs" :key="job.id">
 			<p>{{ job.title }} - {{ job.location }} - {{ job.salary }}</p>
-		</div>
+		</div> -->
+		<HomeComp :jobs="jobs"/>
 	</div>
 </template>
 
