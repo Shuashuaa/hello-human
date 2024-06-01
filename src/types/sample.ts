@@ -1,5 +1,6 @@
 interface animals {
     name: string,
     age: number,
-    breed: string
+    breed: string,
+    isVaccinated: boolean
 }
