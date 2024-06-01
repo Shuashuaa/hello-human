@@ -31,3 +31,14 @@ npm run dev
 ```sh
 npm run build
 ```
+
+```
+day 1 - composition
+day 2 - options
+day 3 - types
+day 4 - functions / - types > OrderTerm
+day 5 - design
+day 6 - animation (v-for & style)
+day 7 - application of type / sort
+day 8 - completion of the whole project
+```
