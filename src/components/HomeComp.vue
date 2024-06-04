@@ -28,3 +28,15 @@ export default defineComponent({ //##
     }
 })
 </script>
+
+<style>
+p{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+/* .list-move{
+    transition: all 1s;
+} */
+</style>
