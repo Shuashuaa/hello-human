@@ -16,10 +16,10 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { PropType } from 'vue'
-import type Job from '@/types/Job.ts';
+import type { PropType } from 'vue' //##
+import type Job from '@/types/Job.ts'; //##
 
-export default defineComponent({
+export default defineComponent({ //##
     props: {
         jobs: {
             required: true,
@@ -28,6 +28,3 @@ export default defineComponent({
     }
 })
 </script>
-
-<style>
-</style>
