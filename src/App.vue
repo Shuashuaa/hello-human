@@ -4,10 +4,11 @@
 			<h1 style="font-size: 20px;">hello there, Human!</h1>
     	</div>
 	
-		<!-- <div v-for="job in jobs" :key="job.id">
+		<div v-for="job in jobs" :key="job.id">
 			<p>{{ job.title }} - {{ job.location }} - {{ job.salary }}</p>
-		</div> -->
-		<HomeComp :jobs="jobs"/>
+		</div>
+		
+		<router-view :jobs="jobs" style="margin-top: 10vh; height: 90vh;"/>
 	</div>
 </template>
 
@@ -21,7 +22,6 @@ export default defineComponent({
 	components: { HomeComp },
 
 	setup() {
-
 		const jobs = ref<Job[]>([
 			{ title: 'Farm Worker', location: 'lon-lon ranch', salary: 10000, id: '1'},
 			{ title: 'Flavor Scientist', location: 'US based company', salary: 60000, id: '2'},
@@ -38,6 +38,7 @@ export default defineComponent({
 		])
 
 		return { jobs }
+
 	},
 });
 </script>
