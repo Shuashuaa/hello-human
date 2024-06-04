@@ -42,3 +42,23 @@ export default defineComponent({
 	},
 });
 </script>
+
+<style>
+	.app{
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		margin: 0;  /* Remove default margin */
+  		padding: 0;  /* Remove default padding */
+	}
+	.header{
+		height: 5vh;
+		background-color: beige; 
+		padding: 1rem;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		display: flex;
+		align-items: center; 
+	}
+</style>
