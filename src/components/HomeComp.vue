@@ -20,7 +20,7 @@
 import { defineComponent } from 'vue'
 import type { PropType } from 'vue'
 import type Job from '@/types/Job';
-import type orderTerm from '@/types/OrderTerm';
+import type { OrderTerm } from '@/types/OrderTerm';
 import { computed } from 'vue'; //##
 
 export default defineComponent({
@@ -31,7 +31,7 @@ export default defineComponent({
         },
         order: {
             required: true,
-            type: String as PropType<orderTerm>
+            type: String as PropType<OrderTerm>
         }
     },
     setup(props) { //##
