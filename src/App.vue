@@ -28,7 +28,7 @@
 import { defineComponent, reactive, ref, toRefs } from 'vue';
 import HomeComp from './components/HomeComp.vue';
 import type Job from './types/Job';
-import type OrderTerm from './types/OrderTerm';
+import type { OrderTerm } from './types/OrderTerm';
 
 export default defineComponent({
 	name: 'App',
