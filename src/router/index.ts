@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeComp from '../components/HomeComp.vue'
 
 const router = createRouter({
-  // history: createWebHistory(import.meta.env.BASE_URL), //deployment
-  history: createWebHistory('/dist/'), //deployment
+  history: createWebHistory(import.meta.env.BASE_URL), //deployment
+  // history: createWebHistory('/dist/'), //deployment
   routes: [
     {
       path: '/',
@@ -14,3 +14,4 @@ const router = createRouter({
 })
 
 export default router
+
