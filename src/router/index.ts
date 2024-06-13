@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeComp from '../components/HomeComp.vue'
 
 const router = createRouter({
-  // history: createWebHistory(import.meta.env.BASE_URL), //deployment
-  history: createWebHistory('/opening/'), //deployment
+  history: createWebHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory('/opening/'), //deployment
   routes: [
     {
       path: '/',
