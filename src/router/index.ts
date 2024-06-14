@@ -6,7 +6,7 @@ const router = createRouter({
   // history: createWebHistory('/opening/'), //deployment
   routes: [
     {
-      path: '/',
+      path: '/opening',
       name: 'home',
       component: HomeComp
     },
