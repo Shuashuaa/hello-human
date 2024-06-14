@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) now as [Vue Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ## Type Support for `.vue` Imports in TS
 
@@ -30,12 +30,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-```
-day 1 - composition
-day 2 - options
-day 3 - types
-day 4 - functions / - types > OrderTerm
-day 5 - design
 ```
