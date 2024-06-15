@@ -1,5 +1,7 @@
 # Hello-Human
 
+![image](https://github.com/Shuashuaa/Hello-Human/assets/96514740/87d562cf-51f0-45e7-b927-452599b8b61b)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
